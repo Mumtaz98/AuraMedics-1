@@ -1,0 +1,6 @@
+{
+  "name": "AuraMedical AI",
+  "description": "Your Intelligent Health Companion - AI Healthcare Platform",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

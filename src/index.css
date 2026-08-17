@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-primary: #0284c7;
+    --color-primary-container: #e0f2fe;
+    --color-secondary: #0284c7;
+    --color-secondary-container: #f1f5f9;
+    --color-tertiary: #0284c7;
+    --color-surface: #ffffff;
+    --color-surface-container: #f8f7f4;
+    --color-surface-container-low: #ffffff;
+    --color-surface-container-lowest: #f8f7f4;
+    --color-surface-container-high: #e2e8f0;
+    --color-surface-container-highest: #cbd5e1;
+    --color-on-surface: #18181a;
+    --color-on-surface-variant: #64748b;
+    --color-outline: #e2e8f0;
+    --color-outline-variant: #f1f5f9;
+    --color-error: #f43f5e;
+    --color-error-container: #fef2f2;
+  }
+
+  body {
+    background-color: #f8f7f4;
+    color: #18181a;
+    font-family: 'Inter', sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: 'Cormorant Garamond', serif;
+  }
+
+  code, pre, .font-mono, .label-meta {
+    font-family: 'Space Mono', 'JetBrains Mono', monospace;
+  }
+}
+
+.label-meta {
+  font-family: 'Space Mono', 'JetBrains Mono', monospace;
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: rgba(24, 24, 26, 0.6);
+}
+
+.stock-tag-accent {
+  font-family: 'Space Mono', 'JetBrains Mono', monospace;
+  font-size: 0.7rem;
+  color: #0284c7;
+  padding: 4px 10px;
+  background: #e0f2fe;
+  border: 1px solid rgba(2, 132, 199, 0.2);
+  border-radius: 9999px;
+  font-weight: 700;
+}
+
+/* Custom Scrollbar Styling */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 9999px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #0284c7;
+}
